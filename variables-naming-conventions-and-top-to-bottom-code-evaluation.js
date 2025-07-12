@@ -23,10 +23,9 @@ Things to reflect on:
   - How do clear variable names benefit team collaboration?
   
 */
+let herName = ("Alice");
+let number  = (5);
+let price = (20);
+let itemList = herName + " bought " + number + " items for $" + price + ".";
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
-
-console.log(d);
+console.log(itemList);
